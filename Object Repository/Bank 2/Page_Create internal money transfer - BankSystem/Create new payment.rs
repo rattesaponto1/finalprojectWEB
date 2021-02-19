@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Create new payment</name>
+   <name>Create new payment</name>
    <tag></tag>
    <elementGuidId>aea5ff4a-deb3-4430-b879-a814edadb2f2</elementGuidId>
    <selectorCollection>

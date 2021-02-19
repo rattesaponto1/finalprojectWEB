@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Destination account_DestinationBankAc_aefaf9</name>
+   <name>input_concat(Beneficiary, , s name)_Destina_58cce8</name>
    <tag></tag>
-   <elementGuidId>fbd3cad6-3a2d-47be-b40c-cbcc88df5d39</elementGuidId>
+   <elementGuidId>2099a2ed-aeb6-4de3-8d77-b36d1fffcff5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='destination']</value>
+         <key>CSS</key>
+         <value>#DestinationBank_Account_UserFullName</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#destination</value>
+         <key>XPATH</key>
+         <value>//input[@id='DestinationBank_Account_UserFullName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,13 +33,6 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>destination</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
@@ -54,50 +47,71 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-regex</name>
+      <name>data-val-maxlength</name>
       <type>Main</type>
-      <value>Destination account is incorrect or belongs to a different bank</value>
+      <value>The field Beneficiary's name must be a string or array type with a maximum length of '50'.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-regex-pattern</name>
+      <name>data-val-maxlength-max</name>
       <type>Main</type>
-      <value>^[A-Z]{4}\d{8}$</value>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-required</name>
       <type>Main</type>
-      <value>The Destination account field is required.</value>
+      <value>The Beneficiary's name field is required.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>DestinationBank_Account_UserFullName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>DestinationBankAccountUniqueId</value>
+      <value>DestinationBank.Account.UserFullName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;destination&quot;)</value>
+      <value>id(&quot;DestinationBank_Account_UserFullName&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='destination']</value>
+      <value>//input[@id='DestinationBank_Account_UserFullName']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='transferForm']/div[3]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//div[3]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

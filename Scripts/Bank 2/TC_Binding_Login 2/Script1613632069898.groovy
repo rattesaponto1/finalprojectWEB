@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://banksystem-2.herokuapp.com/')
 
+WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Bank 2/Page_Home - BankSystem/Login'))
 
 WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Email'), email)
@@ -61,7 +63,7 @@ if (WebUI.verifyTextPresent('The Email field is required.', false, FailureHandli
 	
 	WebUI.delay(1)
 	
+	WebUI.click(findTestObject('Object Repository/Bank 2/Page_Log in - BankSystem/button_Close'))
+	
 	}
-
-WebUI.closeBrowser()
 

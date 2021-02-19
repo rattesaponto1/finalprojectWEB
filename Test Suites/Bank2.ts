@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>b5042423-d270-4344-8cc9-5b88108c3f58</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bank 2/TC_Register 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -87,6 +87,75 @@
          <type>DATA_COLUMN</type>
          <value>password2</value>
          <variableId>de0f45cc-678f-45a0-b1ae-ddfc9154eaac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63d40113-aa42-4a16-ab62-e765f11d099b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bank 2/TC_Transfer</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6b6b781a-84e6-4fc0-a54b-92447a43c329</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Bank 2/transfer</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>destinationAC</value>
+         <variableId>4004ee12-6767-43e3-b35b-e54220cc694f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>64549c12-fb6a-44bd-9bb6-57f16e8dd151</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>e4d2d445-8342-4274-8ecd-0f5c2fe3b9ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pilihbank</value>
+         <variableId>6d71d817-b159-4128-a5ef-12638e4135ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>swiftbank</value>
+         <variableId>f54a5ed4-d35e-4abd-b9aa-46acabdace57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7994e415-2374-4287-a637-3c692f2f8e33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75ad3297-465a-4d36-85a1-7dc9bf9b9ae4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a42d143-53f7-43ae-aa87-eede876a9b49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d5fc3a49-04ec-4a24-92d1-5452d24b0703</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
