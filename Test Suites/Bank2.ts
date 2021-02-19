@@ -37,5 +37,17 @@
          <value>password</value>
          <variableId>e3d42343-b2f9-4e24-b7f0-a73e7b80a117</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>c4593514-d713-4d23-8fda-51f14300357e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email2</value>
+         <variableId>a38023f3-686a-46c8-9c00-63d6328539bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c4593514-d713-4d23-8fda-51f14300357e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password2</value>
+         <variableId>de0f45cc-678f-45a0-b1ae-ddfc9154eaac</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

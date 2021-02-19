@@ -24,10 +24,44 @@ WebUI.click(findTestObject('Bank 2/Page_Home - BankSystem/Login'))
 
 WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Email'), email)
 
-WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Password'), 
-    password)
+WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Password'), password)
 
 WebUI.click(findTestObject('Object Repository/Bank 2/Page_Log in - BankSystem/button_Log in'))
+
+if (WebUI.verifyTextPresent('The Email field is required.', false, FailureHandling.OPTIONAL) == true) {
+	
+		WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Email'), email2)
+	
+		WebUI.click(findTestObject('Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in'))
+	
+}
+	else if (WebUI.verifyTextPresent('The Password field is required', false, FailureHandling.OPTIONAL) == true) {
+		 
+		WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Password'), password2)
+		
+		WebUI.click(findTestObject('Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in'))
+		
+	}
+	
+	else if (WebUI.verifyTextPresent('Invalid email or password', false, FailureHandling.OPTIONAL) == true) {
+		
+		WebUI.clearText(findTestObject('Object Repository/Bank 1/Page_Log in - BankSystem/Email'))
+		
+		WebUI.clearText(findTestObject('Object Repository/Bank 1/Page_Log in - BankSystem/Password'))
+		
+		WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Email'), email2)
+		
+		WebUI.setText(findTestObject('Bank 2/Page_Log in - BankSystem/Password'), password2)
+		
+		WebUI.click(findTestObject('Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in'))
+			
+	}
+	
+ else {
+	
+	WebUI.delay(1)
+	
+	}
 
 WebUI.closeBrowser()
 
