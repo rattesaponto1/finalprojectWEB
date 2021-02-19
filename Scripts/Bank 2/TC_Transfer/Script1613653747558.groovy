@@ -65,7 +65,7 @@ switch (pilihbank.toString()) {
 		WebUI.setText(findTestObject('Bank 2/Page_Create global money transfer - BankSystem/Description'),
 			Description)
 		
-		WebUI.closeBrowser()
+		WebUI.delay(5)
 	
 	break
 }

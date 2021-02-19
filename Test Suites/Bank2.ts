@@ -134,27 +134,27 @@
          <variableId>f54a5ed4-d35e-4abd-b9aa-46acabdace57</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
          <variableId>7994e415-2374-4287-a637-3c692f2f8e33</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>benename</value>
          <variableId>75ad3297-465a-4d36-85a1-7dc9bf9b9ae4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>IBAN</value>
          <variableId>6a42d143-53f7-43ae-aa87-eede876a9b49</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6b6b781a-84e6-4fc0-a54b-92447a43c329</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
          <variableId>d5fc3a49-04ec-4a24-92d1-5452d24b0703</variableId>
       </variableLink>
    </testCaseLink>
