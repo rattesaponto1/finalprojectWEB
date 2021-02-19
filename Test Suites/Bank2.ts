@@ -12,13 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3cdffd50-6aa3-4662-bb3b-8c0d139c5424</testSuiteGuid>
    <testCaseLink>
-      <guid>785165dd-5c1e-4af0-b110-218eb7344526</guid>
+      <guid>b5042423-d270-4344-8cc9-5b88108c3f58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Bank 2/TC_Register 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>14a8d5fa-6019-4f38-9b74-fd6181f7eca4</id>
+         <id>33404482-c12c-46fc-91c4-b276b77a78eb</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,25 +26,25 @@
          <testDataId>Data Files/Bank 2/register</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>14a8d5fa-6019-4f38-9b74-fd6181f7eca4</testDataLinkId>
+         <testDataLinkId>33404482-c12c-46fc-91c4-b276b77a78eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>d9d62e5d-afca-46c1-ac14-a6cb42880565</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>14a8d5fa-6019-4f38-9b74-fd6181f7eca4</testDataLinkId>
+         <testDataLinkId>33404482-c12c-46fc-91c4-b276b77a78eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>99ebb1bf-5ea3-423d-bc48-005d7e192226</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>14a8d5fa-6019-4f38-9b74-fd6181f7eca4</testDataLinkId>
+         <testDataLinkId>33404482-c12c-46fc-91c4-b276b77a78eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>d9320c28-4d09-4ae1-a71e-ccf25af98e4b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>14a8d5fa-6019-4f38-9b74-fd6181f7eca4</testDataLinkId>
+         <testDataLinkId>33404482-c12c-46fc-91c4-b276b77a78eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>confirmpass</value>
          <variableId>f279043b-3940-428d-8c0c-438926fa7c66</variableId>

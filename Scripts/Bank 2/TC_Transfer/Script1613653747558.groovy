@@ -14,4 +14,54 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://banksystem-2.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Home - BankSystem/a_Login'))
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/input_Email_Input.Email'), 'rattesakalvari@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/input_Password_Input.Password'), 
+    'E0tup6lQfGsIVw+q//tKiQ==')
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/button_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/input_Email_Input.Email'), 'rezamuhammadsaput@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/input_Password_Input.Password'), 
+    '/7/Zot9owH167vL5RcTwGw==')
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Log in - BankSystem/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Home Page - BankSystem/button_Close'))
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Home Page - BankSystem/a_Money transfers'))
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Home Page - BankSystem/a_New Transfer'))
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Payment types - BankSystem/a_Create new payment'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/select_Select source account...            _56f368'), 
+    '6995694b-a4ce-4d79-b35a-2da68be60378', true)
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/input_Destination account_DestinationBankAc_aefaf9'), 
+    'ABahas')
+
+WebUI.doubleClick(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/input_Destination account_DestinationBankAc_aefaf9'))
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/input_Destination account_DestinationBankAc_aefaf9'), 
+    'ABCL76811692')
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/input__Amount'), 
+    '100')
+
+WebUI.setText(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/input_(optional)_Description'), 
+    'test')
+
+WebUI.click(findTestObject('Object Repository/test TF bank 2/Page_Create internal money transfer - BankSystem/button_Pay'))
+
+WebUI.closeBrowser()
 
