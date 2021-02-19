@@ -16,13 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Bank 1/Page_Create internal money transfer - BankSystem/Money transfers'))
+
+WebUI.click(findTestObject('Bank 1/Page_Create internal money transfer - BankSystem/New Transfer'))
+
 switch (pilihTF.toString()) {
 	
 	case 'internal':
-	
-		WebUI.click(findTestObject('Bank 1/Page_Create internal money transfer - BankSystem/Money transfers'))
-	
-		WebUI.click(findTestObject('Bank 1/Page_Create internal money transfer - BankSystem/New Transfer'))
 	
 		WebUI.click(findTestObject('Bank 1/Page_Create internal money transfer - BankSystem/Create new payment'))
 	
@@ -55,9 +55,7 @@ switch (pilihTF.toString()) {
 	
 	case 'world':
 	
-		WebUI.click(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/Transfer worlwide'))
-	
-		WebUI.click(findTestObject('Object Repository/test tf/Page_Payment types - BankSystem/Create new payment'))
+		WebUI.click(findTestObject('Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Create new payment'))
 	
 		WebUI.selectOptionByValue(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/From acc'),
 			'97df75e9-24c3-4033-85bb-123c554fbe18', false)
@@ -77,7 +75,7 @@ switch (pilihTF.toString()) {
 			name)
 	
 		WebUI.selectOptionByValue(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/country'),
-			'Algeria', false)
+			'Malaysia', false)
 	
 		WebUI.setText(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/Beneficiary, , s name'),
 			beneficiary)

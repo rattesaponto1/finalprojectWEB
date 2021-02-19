@@ -83,39 +83,39 @@
          <variableId>49de8127-9114-4841-9451-7697defcb2f3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pilihTF</value>
          <variableId>26ae59fc-5293-4738-b9f0-50b5f99dbca3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>swiftbank</value>
          <variableId>a8f950fc-bd1f-4f54-80cb-d498f9d7c0f8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
          <variableId>08729231-200d-4007-8e4c-d53a187a2bad</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>beneficiary</value>
          <variableId>9f76c371-26de-48ca-8b31-250dc366016f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>IBAN</value>
          <variableId>f735a6e8-0911-41b3-a4f1-faa071feafdf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4f4be87-6b19-4f65-a0a0-1e2292880551</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
          <variableId>dfdc6ab2-a7af-4c64-9086-50a63f08cdec</variableId>
       </variableLink>
    </testCaseLink>
