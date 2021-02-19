@@ -73,9 +73,10 @@ switch (pilihTF.toString()) {
 	
 		WebUI.setText(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/input_Name_DestinationBank'),
 			name)
-	
-		WebUI.selectOptionByValue(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/country'),
-			'Malaysia', false)
+		
+			WebUI.selectOptionByValue(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/country'),
+				'Malaysia', true)
+
 	
 		WebUI.setText(findTestObject('Bank 1/Page_Create global money transfer - BankSystem/Beneficiary, , s name'),
 			beneficiary)
